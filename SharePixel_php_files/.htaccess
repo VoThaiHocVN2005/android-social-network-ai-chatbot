@@ -1,0 +1,5 @@
+Options -Indexes
+
+<Files "db_config.php">
+    Require all denied
+</Files>

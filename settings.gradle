@@ -1,0 +1,2 @@
+rootProject.name = "Android Social Network AI Chatbot"
+include ':app'

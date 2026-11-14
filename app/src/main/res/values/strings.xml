@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android Social Network AI Chatbot</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="name">name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat_title">Android Social Network AI Chatbot</string>
+    <string name="chat_back">Back</string>
+    <string name="chat_privacy_notice">Your messages are sent to Gemini and saved in this account chat history.</string>
+    <string name="chat_input_hint">Type a message (max 2,000 characters)</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_sending">Sending...</string>
+    <string name="chat_message_required">Enter a message.</string>
+    <string name="chat_load_error">Unable to load chat history.</string>
+    <string name="chat_send_error">Unable to send the message. Please try again.</string>
+
+</resources>

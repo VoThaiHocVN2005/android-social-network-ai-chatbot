@@ -1,0 +1,12 @@
+<?php
+
+require_once 'connection.php';
+
+$user_id = isset($_GET['user_id']) ? $_GET['user_id'] : null;
+$story_id = isset($_GET['story_id']) ? $_GET['story_id'] : null;
+sharepixelRequireUserToken($con, $user_id);
+sharepixelChangeStoryRelation($con, 'reports', $user_id, $story_id, false);
+
+echo json_encode(array('error' => false, 'message' => 'Report removed.'));
+
+?>
